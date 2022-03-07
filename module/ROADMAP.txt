@@ -1,0 +1,16 @@
+ROADMAP:
+[ ] Conversion of AWS RDS (MySQL) to DynamoDB (NoSQL).
+[ ] Conversion of NodeJS Express Framework to Python Django framework.
+[ ] Create a chatbot that makes calls to the API gateway and trigger functions.
+[ ] Create a Lambda function that automatically pulls changes from the GitHub repo.
+[ ] Create a module that utilizes containers and Kubernetes services.
+[ ] Introduce branching on GitHub and best practices.
+[ ] Update module b to cover auto-scaling features.
+[ ] Update the website with additional features or convert to using the Django framework and make API calls.
+
+TODO:
+Module B
+- Update the setup with the appropriate information.
+- Update the list of applied policies and roles.
+- Update instructions on how to securely connect to the network.
+- Update the required resources (VPC, region, security groups, bucket)

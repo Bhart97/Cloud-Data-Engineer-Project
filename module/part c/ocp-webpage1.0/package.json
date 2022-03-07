@@ -1,0 +1,15 @@
+{
+  "name": "ocp-webpage",
+  "version": "1.0.0",
+  "description": "webpage that displays information about the OCP cohorts",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  }
+}
