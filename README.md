@@ -1,6 +1,6 @@
 ## Cloud Data Engineer Project
 
-**Introduction:** The CDE project's main purpose is to provide additional technical training for the cloud engineering and related tracks for OptimumHIT CareerPath (OCP) training program. However, it is also designed to be a shared respostiory where analysts can contribute additional content or showcase what they have been learning throughout their tech track. Here, analysts will be able to create resources that can be used by future OCP members.
+**Introduction:** The CDE project's main purpose is to provide additional technical training for the Cloud Data Engineering and related tech tracks for OptimumHIT's CareerPath (OCP) training program. However, it is also designed to be a shared respostiory where analysts can contribute additional content or showcase what they have been learning throughout their tech track. Here, analysts will be able to create resources that can be used by future OCP members.
 
 **Description:** The project's objective is to help introduce analysts to the popular tools used for software development and how operations are performed in the cloud. Analysts will be using programming tools to create a basic website and deploy it within the cloud. By doing so, they will become more familiar with software development along with the core components of cloud computing including: identity and access management, computing and storage resources, networking, and security.
 
