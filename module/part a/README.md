@@ -6,12 +6,11 @@
 
 ## Setup
 
-```
+
 Downloads: 
 - [Visual Studio Code](https://code.visualstudio.com/)- a beginner-friendly, lightweight text editor that is IDE-like(Integrated) when given the appropriate plugins
 - [Git Bash](https://git-scm.com/) useful command-prompt enivronment which provides limited command tools
 - [Python](https://www.python.org/downloads/) - the latest version of Python to test your code
-```
 
 
 ## Hello, World!
