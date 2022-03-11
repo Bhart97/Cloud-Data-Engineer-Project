@@ -1,69 +1,72 @@
 ## Module A: Introduction to Software Development
 
-- Explore and understand how GitHub works.
-- Save changes from local repository to the remote repository.
-- Learn how to use programming and automation tools.
+- Explore and understand how GitHub works
+- Save changes from local repository to the remote repository
+- Learn how to use programming and automation tools
 
 ## Setup
 
 ```
-- Python3
-- Text editor
-- Linux terminal
+Downloads: 
+- [Visual Studio Code](https://code.visualstudio.com/)- a beginner-friendly, lightweight text editor that is IDE-like(Integrated) when given the appropriate plugins
+- [Git Bash](https://git-scm.com/) useful command-prompt enivronment which provides limited command tools
+- [Python](https://www.python.org/downloads/) - the latest version of Python to test your code
 ```
 
-Note: 
-- You are not required to have an IDE for programming, but [Visual Studio Code](https://code.visualstudio.com/) is a beginner-friendly, lightweight text editor that is IDE-like when given the appropriate plugins.
-- For Windows OS, it is strongly recommended to have [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install) with your preferred Linux distribution installed or alternatively download [Git Bash](https://git-scm.com/) which provides limited command tools.
 
 ## Hello, World!
 
-In this module, you will explore the fundamentals of GitHub and the basic of scripting. It is encouraged to use the CLI whenever possible such as creating directories or files. Becoming comfortable using command lines will yield more benefits in the field of cloud computing.
+In this module, you will explore the fundamentals of GitHub and the basics of scripting. It is encouraged to use the CLI(Command Line Interface -Git Bash) whenever possible such as for creating directories or files. Becoming comfortable using command lines will yield more benefits in the field of cloud computing and data engineering.
 
-The majority of this module can be completed through Linux. Please refer to this [resource](https://learnxinyminutes.com/docs/bash/) for further technical assistance.
+The majority of this module can be completed through Git Bash. Please refer to this [resource](https://learnxinyminutes.com/docs/bash/) for further technical assistance.
 
 **1. Getting Started**
 
-Login / create an account. [GitHub](https://docs.github.com/en/get-started/quickstart/hello-world) offers a cloud-based solution to version control and software development. This service allows you to upload your projects to remote repositories as well as streamlining collaboration with others.
+Login/create a [GitHub](https://docs.github.com/en/get-started/quickstart/hello-world) account. GitHub offers a cloud-based solution to version control and software development. This service allows you to upload your project(s) to remote repositories as well as collaborating with others.
 
-Before you can start editing and saving the changes to your project, you will need to authenticate your local machine and associate it with your GitHub account. Open your Linux terminal / Git Bash and modify the following command which will create a [SSH key](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key) using the RSA algorithm:
+Before you can start editing and saving the changes to your project, you will need to authenticate your local machine and associate it with your GitHub account. Open Git Bash and modify the following command which will create a [SSH key](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key) using the RSA algorithm:
 ```
-ssh-keygen -t rsa -b 4096 -C <your_email@example.com>
+ssh-keygen -t rsa -b 4096 -C your_email@example.com
 ```
 
-Save at the default location and enter an optional password. Copy the generated content within your public key ```.ssh/id_rsa.pub``` and add it to your GitHub account with an appropriate name. This will allow you to push changes to your remote repository from your computer.
+Save at the default location (press enter after using command above) and enter an optional password (or press enter for no passphrase).
+
+Next, copy the generated content within your public key, which is found within ```C:\Users\yourname\.ssh/id_rsa.pub```. The file will open in Microsoft Publisher by default, you must open the file with Notepad in order to copy the generated key.
+
+Then login to your GitHub account add the copied key with an appropriate name. This will allow you to push changes to your remote repository from your computer.
 ```
-settings > SSH and GPG keys > New SSH key
+Within GitHub > settings > SSH and GPG keys > New SSH key
 ```
 
 Troubleshooting:
-- For more information on how to setup your Git, refer to this [resource](https://docs.github.com/en/get-started/quickstart/set-up-git).
-- When the keypair is generated, the key fingerpint is displayed which is the hash key to quickly identify your public key and is not the public key itself.
-- Helpful commands such as ```ls -a```, ```cd <dir>```, and ```cat <file>``` to help identify and read your public key.
+- For more information on how to setup your Git, refer to this [resource](https://docs.github.com/en/get-started/quickstart/set-up-git)
+- When the keypair is generated, the key fingerpint is displayed which is the hash key to quickly identify your public key and is not the public key itself
+- Helpful commands such as ```ls -a```, ```cd <dir>```, and ```cat <file>``` to help identify and read your public key
 
 **2. Creating a New Repository**
 
-You will be creating a very simple project and then saving them to the main branch. The main branch is considered the most up-to-date, stable version of your project. Create a new project with the title ```sample-project``` on GitHub. On your local machine, choose a working directory where your project can be saved. The following command will initialize a Git repository within that directory which enables other Git tools:
+You will be creating a very simple project and then saving it to the main branch. The main branch is considered the most up-to-date, stable version of your project. Create a new project with the title ```sample-project``` within GitHub. On your local machine, choose a working directory where your project can be saved. Within Git Bash enter the following command to initialize a Git repository within that directory which will enable other Git tools:
 ```
 git init
 ```
 
 Note:
 - You can directly create resources with these commands: ```mkdir <dir>``` and ```touch <file>```.
-- When Git is initialized, it creates a hidden folder ```.git/``` and can be verified with ```ls -a``` .
+- When Git is initialized, it creates a hidden folder ```.git/``` and can be verified with ```ls -a``` . To view this folder within file explorer:
+```
+Open File Explorer > click on View (in top ribbon) > check the box for Hidden items
+```
+You will now be able to see the folder ".git" under ```C:\Users\yourname```
 
 **3. Python Script**
 
-Within the same directory where you initialized Git, create a new python file called ```hello.py```. Your program must meet the following requirements:
+Within the same directory where you initialized Git, create a new python file called ```hello.py```. You can write/test your Python code within your downloaded version of Python. Your program must meet the following requirements:
 ```
 - Cannot prompt the user for input.
 - Create a unique or identifiable output.
 - Print to standard output.
 ```
 You can view the example ```hello.py``` to help get started.
-
-Troubleshooting:
-- You can edit files on Linux with different text editors such as ```vim <file>``` or ```nano <file>```.
 
 **4. Commiting the Changes**
 
@@ -72,21 +75,30 @@ In order to save these changes to the main branch on GitHub, you will need to co
 git add hello.py
 git commit -m "my first commit"
 git branch -M main
-git remote add origin git@github.com:<username>/sample-project.git
+git remote add origin git@github.com:username/sample-project.git
 git push -u origin main
 ```
+username above will be the same username you chose for your GitHub account.
+
 When you push the changes to the main branch, you are letting everyone know that the changes made are stable and working. Best practice is to use [branching](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) which allows you to work in isolation without affecting other branches. Whenever you make a clone onto another device or merge with your working directory, these changes should be reflected.
 
 **5. Automation Through Scripting**
+bash
+Automation is what allows for cloud practitioners to become successful in their careers. For this step, you will be creating a Bash script that will automatically run the ```hello.py``` that you have created and store its content within a HTML file called ```firstname_lastname.html```. You are not required to understand web programming to complete this step but here is a quick overview: HTML provides the structural component to store data, CSS makes your web page more visually appealing and intuitive, and JavaScript gives functionality to your web page. You need only to concern with [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
-Automation is what allows for cloud practitioners to become successful in their careers. For this step, you will be creating a Bash script that will automatically run the ```hello.py``` that you have created and store its content within a HTML file called ```<firstname_lastname>.html```. You are not required to understand web programming to complete this step but here is a quick overview: HTML provides the structural component to store data, CSS makes your web page more visually appealing and intuitive, and JavaScript gives functionality to your web page. You need only to concern with [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML).
+Carefully examine ```example.sh``` to understand how to create/modify the necessary HTML file. ```#!/bin/bash``` is the required header in order for a Bash script to run. 
 
-Carefully examine ```example.sh``` to understand how to create / modify the necessary HTML file. ```#!/bin/bash``` is the required header in order for a Bash script to run. After creating a Bash script called ```script.sh```, run the following command through either the Linux terminal or Windows Command Prompt:
+Creating a bash script can be done throught the use of Notepad, and copying the contents of ```example.sh``` above, and modifying the contents. Additionally, you can create your own from scartch. Save your script within ```C:\Users\yourname```
+
+After creating a Bash script called ```script.sh```, run the following command through either the Linux terminal or Windows Command Prompt:
 ```
 bash script.sh
 ```
 
-Verify that your Bash script ran successfully by opening the HTML file and viewing the web page. Commit and push your work to your GitHub account once more.
+You may have to use the command ```cd C:/Users/yourname``` within Git Bash in order to be in the proper file location, if an error occurs when using the command above.
+
+
+Verify that your Bash script ran successfully by opening the new HTML file within ```C:\Users\yourname``` and then viewing the web page. Commit and push your work to your GitHub account once more.
 ```
 git add -A
 git commit -m "message"
@@ -102,4 +114,4 @@ sample-project/
     - <firstname_lastname>.html
     - script.sh
 ```
-Through this module, you have learned what are some of the tools that are required for development and automation. For the next module, you will be uploading the HTML file you have created and host it on a web server on the cloud.
+Through this module, you have learned what are some of the tools that are required for development and automation. For the next module, you will be uploading the HTML file you have created and host it on a web server within the cloud.
