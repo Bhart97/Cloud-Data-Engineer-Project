@@ -59,7 +59,7 @@ To view this folder within file explorer:
 ```
 Open File Explorer > click on View (in top ribbon) > check the box for Hidden items
 ```
-You will now be able to see the folder ".git" under ```C:\Users\yourname```
+You will now be able to see the folder ```.git``` under ```C:\Users\yourname```
 
 **3. Python Script**
 
