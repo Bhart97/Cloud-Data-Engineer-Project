@@ -63,7 +63,7 @@ You will now be able to see the folder ".git" under ```C:\Users\yourname```
 
 **3. Python Script**
 
-Within the same directory where you initialized Git, create a new python file called ```hello```. You can write/test your Python code within your downloaded version of Python. Your program must meet the following requirements:
+Within the same directory where you initialized Git, create a new python file called ```hello```. You can write/test your Python code within your downloaded version of Python. You can make your Python script/program as complicated or as simple as you like, however your program must meet the following requirements:
 ```
 - Cannot prompt the user for input
 - Create a unique or identifiable output
