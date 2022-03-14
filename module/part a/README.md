@@ -73,7 +73,7 @@ You can view the example ```hello.py``` to help get started.
 
 **4. Commiting the Changes**
 
-In order to save these changes to the main branch on GitHub, you will need to commit these changes before pushing them. Commits are snapshots your working branch and allows you to rollback to previous versions. Modify and run the following commands:
+In order to save these changes to the main branch on GitHub, you will need to commit these changes before pushing them. Commits are snapshots of your working branch and allow you to rollback to previous versions. Modify and run the following commands:
 ```
 git add hello.py
 git commit -m "my first commit"
