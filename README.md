@@ -19,3 +19,4 @@
 
 **To Begin:**
 - Click on "module" above and then click on "part a" to begin this emersive project
+- Please note that linked websites open in the same tab, to mitigate this issue, please right-click on the hyperlink and select "Open link in new tab"
