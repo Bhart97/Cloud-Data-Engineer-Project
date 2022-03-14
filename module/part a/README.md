@@ -31,6 +31,9 @@ ssh-keygen -t rsa -b 4096 -C your_email@example.com
 Save at the default location (press enter after using command above) and enter an optional password (or press enter to bypass using a password).
 
 Next, copy the generated content within your public key, which is found within ```C:\Users\yourname\.ssh/id_rsa.pub```. The file will open in Microsoft Publisher by default, you must open the file with Notepad in order to copy the generated key.
+- Additionally, commands such as ```cd <dir>```, and ```cat <file>``` can help help identify and read your public key within Git Bash. For example using the ```cd C:/Users/username/.ssh``` command and then using the ```cat id_rsa.pub``` command, and copying the generated key
+
+
 
 Then login to your GitHub account add the copied key with an appropriate name. This will allow you to push changes to your remote repository from your computer.
 ```
