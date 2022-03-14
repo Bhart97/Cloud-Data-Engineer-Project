@@ -35,7 +35,7 @@ Next, copy the generated content within your public key, which is found within `
 
 
 
-Then login to your GitHub account add the copied key with an appropriate name. This will allow you to push changes to your remote repository from your computer.
+Then login to your GitHub account add the copied key with an appropriate name, using the steps below. This will allow you to push changes to your remote repository from your computer.
 ```
 Within GitHub > settings > SSH and GPG keys > New SSH key
 ```
