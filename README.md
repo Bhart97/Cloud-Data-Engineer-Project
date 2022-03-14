@@ -16,3 +16,6 @@
 - Module A - Introduction to software development
 - Module B - Introduction to cloud operations
 - Module C - Maintaining and modifying existing resources
+
+**To Begin:**
+- Click on "module" above and then click on "part a" to begin this emersive project
