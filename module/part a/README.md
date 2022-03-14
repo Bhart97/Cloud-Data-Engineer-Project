@@ -60,7 +60,7 @@ You will now be able to see the folder ".git" under ```C:\Users\yourname```
 
 **3. Python Script**
 
-Within the same directory where you initialized Git, create a new python file called ```hello.py```. You can write/test your Python code within your downloaded version of Python. Your program must meet the following requirements:
+Within the same directory where you initialized Git, create a new python file called ```hello```. You can write/test your Python code within your downloaded version of Python. Your program must meet the following requirements:
 ```
 - Cannot prompt the user for input.
 - Create a unique or identifiable output.
@@ -88,17 +88,17 @@ Automation is what allows for cloud practitioners to become successful in their 
 
 Carefully examine ```example.sh``` to understand how to create/modify the necessary HTML file. ```#!/bin/bash``` is the required header in order for a Bash script to run. 
 
-Creating a bash script can be done throught the use of Notepad, and copying the contents of ```example.sh``` above, and modifying the contents. Additionally, you can create your own from scartch. Save your script within ```C:\Users\yourname```
+Creating a bash script can be done throught the use of Notepad, and copying the contents of ```example.sh``` above, and modifying the contents. Additionally, you can create your own from scartch. Save your script within ```C:\Users\yourname\sample-project```
 
 After creating and saving a Bash script called ```script.sh```, run the following command through Git Bash:
 ```
 bash script.sh
 ```
 
-You may have to use the command ```cd C:/Users/yourname``` within Git Bash in order to be in the proper file location, if an error occurs when using the command above.
+You may have to use the command ```cd C:/Users/yourname/sample-project``` within Git Bash in order to be in the proper file location, if an error occurs when using the command above.
 
 
-Verify that your Bash script ran successfully by opening the new HTML file located within ```C:\Users\yourname``` and then viewing the web page. Commit and push your work to your GitHub account once more.
+Verify that your Bash script ran successfully by opening the new HTML file located within ```C:\Users\yourname\sample-project``` and then viewing the web page. Commit and push your work to your GitHub account once more.
 ```
 git add -A
 git commit -m "message"
