@@ -91,7 +91,7 @@ Automation is what allows for cloud practitioners to become successful in their 
 
 Carefully examine ```example.sh``` to understand how to create/modify the necessary HTML file. ```#!/bin/bash``` is the required header in order for a Bash script to run. 
 
-Creating a bash script can be done throught the use of Notepad, and copying the contents of ```example.sh``` above, and modifying the contents. Additionally, you can create your own from scartch. Save your script within ```C:\Users\yourname\sample-project```
+Creating a bash script can be done throught the use of Notepad, and copying the contents of ```example.sh``` above, and modifying the contents. Additionally, you can create your own from scratch. Save your script within ```C:\Users\yourname\sample-project```
 
 After creating and saving a Bash script called ```script.sh```, run the following command through Git Bash:
 ```
