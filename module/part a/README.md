@@ -111,7 +111,7 @@ By the end of this module, you should have the following files:
 ```
 sample-project/
     - hello.py
-    - <firstname_lastname>.html
+    - firstname_lastname.html
     - script.sh
 ```
 Through this module, you have learned what are some of the tools that are required for development and automation. For the next module, you will be uploading the HTML file you have created and host it on a web server within the cloud.
