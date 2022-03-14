@@ -53,8 +53,8 @@ git init
 ```
 
 Note:
-- You can directly create resources with these commands: ```mkdir <dir>``` and ```touch <file>```.
-- When Git is initialized, it creates a hidden folder ```.git/``` and can be verified with ```ls -a``` .
+- You can directly create resources with these commands: ```mkdir <dir>``` and ```touch <file>```
+- When Git is initialized, it creates a hidden folder ```.git/``` and can be verified with ```ls -a``` 
 To view this folder within file explorer:
 ```
 Open File Explorer > click on View (in top ribbon) > check the box for Hidden items
@@ -65,9 +65,9 @@ You will now be able to see the folder ".git" under ```C:\Users\yourname```
 
 Within the same directory where you initialized Git, create a new python file called ```hello```. You can write/test your Python code within your downloaded version of Python. Your program must meet the following requirements:
 ```
-- Cannot prompt the user for input.
-- Create a unique or identifiable output.
-- Print to standard output.
+- Cannot prompt the user for input
+- Create a unique or identifiable output
+- Print to standard output
 ```
 You can view the example ```hello.py``` to help get started.
 
