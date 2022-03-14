@@ -3,7 +3,6 @@
 - Explore and understand how GitHub works
 - Save changes from local repository to the remote repository
 - Learn how to use programming and automation tools
-- Please note that linked websites open in the same tab, to mitigate this issue, please right-click on the hyperlink and select "Open link in new tab"
 
 ## Setup
 
@@ -16,13 +15,13 @@ Downloads:
 
 ## Hello, World!
 
-In this module, you will explore the fundamentals of GitHub and the basics of scripting. It is encouraged to use the CLI (Command Line Interface - Git Bash) whenever possible such as for creating directories or files. Becoming comfortable using command lines will yield more benefits in the field of cloud computing and data engineering.
+In this module, you will explore the fundamentals of GitHub and the basics of scripting. It is encouraged to use the CLI (Command Line Interface - Git Bash) whenever possible, such as for creating directories or files. Becoming comfortable using command lines will yield more benefits in the field of cloud computing and data engineering.
 
 The majority of this module can be completed through Git Bash. Please refer to this [resource](https://learnxinyminutes.com/docs/bash/) for further technical assistance.
 
 **1. Getting Started**
 
-Login/create a [GitHub](https://docs.github.com/en/get-started/quickstart/hello-world) account. GitHub offers a cloud-based solution to version control and software development. This service allows you to upload your project(s) to remote repositories as well as collaborate with others.
+Login/create a [GitHub](https://docs.github.com/en/get-started/quickstart/hello-world) account. GitHub offers a cloud-based solution for version control and software development. This service allows you to upload your project(s) to remote repositories as well as collaborate with others.
 
 Before you can start editing and saving the changes to your project, you will need to authenticate your local machine and associate it with your GitHub account. Open Git Bash and modify the following command which will create a [SSH key](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key) using the RSA algorithm:
 ```
@@ -58,6 +57,8 @@ To view this folder within file explorer:
 Open File Explorer > click on View (in top ribbon) > check the box for Hidden items
 ```
 You will now be able to see the folder ".git" under ```C:\Users\yourname```
+```
+yourname above will be formatted as 'first initial last name' if your name is 'John Smith', it will appear as Jsmith
 
 **3. Python Script**
 
@@ -79,7 +80,7 @@ git branch -M main
 git remote add origin git@github.com:username/sample-project.git
 git push -u origin main
 ```
-username above will be the same username you chose for your GitHub account.
+username in the git command above will be the same username you chose for your GitHub account.
 
 When you push changes to the main branch, you are letting everyone know that the changes made are stable and working. Best practice is to use [branching](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) which allows you to work in isolation without affecting other branches. Whenever you make a clone onto another device or merge with your working directory, these changes should be reflected.
 
@@ -115,4 +116,4 @@ sample-project/
     - firstname_lastname.html
     - script.sh
 ```
-Through this module, you have learned what are some of the tools that are required for development and automation. For the next module, you will be uploading the HTML file you have created and host it on a web server within the cloud.
+Through this module, you have learned how to use some of the tools that are required for development and automation. For the next module, you will be uploading the HTML file you have created and host it on a web server within the cloud.
