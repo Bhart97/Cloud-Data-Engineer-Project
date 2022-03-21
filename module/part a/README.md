@@ -15,7 +15,7 @@ To begin, download the following applications:
 
 ## Hello, World!
 
-In this module, you will explore the fundamentals of GitHub and the basics of scripting. It is encouraged to use the CLI (Command Line Interface - Git Bash) whenever possible, such as for creating directories or files. Becoming comfortable using command lines will yield more benefits in the field of cloud computing and data engineering.
+In this module, you will explore the fundamentals of GitHub and the basics of scripting. It is encouraged to use the CLI (Command Line Interface - Git Bash) whenever possible, such as for creating directories or files. Becoming comfortable using command line interfaces will yield more benefits in the field of cloud computing and data engineering.
 
 The majority of this module can be completed through Git Bash. Please refer to this [resource](https://learnxinyminutes.com/docs/bash/) for further technical assistance.
 
