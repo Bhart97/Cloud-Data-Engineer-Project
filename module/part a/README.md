@@ -32,7 +32,7 @@ ssh-keygen -t rsa -b 4096 -C your_email@example.com
 Save at the default location (press enter after using command above) and enter an optional password (or press enter to bypass using a password).
 
 Next, copy the generated content within your public key, which is found within ```C:\Users\yourname\.ssh/id_rsa.pub```. The file will open in Microsoft Publisher by default, you must open the file with Notepad in order to copy the generated key.
-- Additionally, commands such as ```cd <dir>``` and ```cat <file>``` can help help identify and read your public key within Git Bash. For example using the ```cd C:/Users/username/.ssh``` command and then using the ```cat id_rsa.pub``` command, to retrieve the generated key
+- Additionally, commands such as ```cd <dir>``` and ```cat <file>``` can help help identify and read your public key within Git Bash. For example, modifying and using the ```cd C:/Users/username/.ssh``` command and then using the ```cat id_rsa.pub``` command, to retrieve the generated key
 
 
 
@@ -99,7 +99,7 @@ After creating and saving a Bash script called ```script.sh```, run the followin
 bash script.sh
 ```
 
-You may have to use the command ```cd C:/Users/yourname/sample-project``` within Git Bash in order to be in the proper file location, if an error occurs when using the command above.
+You may have to modify and use the command ```cd C:/Users/yourname/sample-project``` within Git Bash in order to be in the proper file location, if an error occurs when using the command above.
 
 
 Verify that your Bash script ran successfully by opening the new HTML file located within ```C:\Users\yourname\sample-project``` and then viewing the web page. Commit and push your work to your GitHub account once more.
