@@ -4,6 +4,7 @@
 - Save changes from local repository to the remote repository
 - Learn how to use programming and automation tools
 
+Please note that linked websites open in the same tab, to mitigate this issue, please right-click on the hyperlink and select "Open link in new tab"
 ## Setup
 
 
